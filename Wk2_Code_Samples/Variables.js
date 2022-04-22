@@ -40,7 +40,7 @@ a = "5" + 5;            // This ends up as 10
 if (1 === 1) {
     let a = 2
 }
-console.log(a); // Error: a is not defined
+//console.log(a); // Error: a is not defined
 
 let b = 3 
 
@@ -145,9 +145,11 @@ var myString = `Hey my name is ${myName}, my shoe size is ${myShoeSize} and my f
 console.log(`The string we built is: ${myString}`); // Prints "The string we built is: Hey my name is Madison, my shoe size is 10 and my favorite number is 3"
 
 // Literals
-var myVar = 1;
+var myVar = 1;              // Integer literal
 myVar = "string literal";
-myVar = true;
+myVar = true;               // Boolean Literal
+myVar = 15n;                // BigInt literal
+myVar = 1.4;                // Float literal
 
 // Truthy and Falsy
 var myBool = 0 || -0;   // false
