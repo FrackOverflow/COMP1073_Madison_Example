@@ -34,7 +34,7 @@ a = 5;                  // No issue due to dynamic typing
 
 // this can cause confusion
 a = "String " + 5;      // This ends up as "String 5"
-a = "5" + 5;            // This ends up as 10
+a = "5" + 5;            // This ends up as 55
 
 // Scope
 if (1 === 1) {
