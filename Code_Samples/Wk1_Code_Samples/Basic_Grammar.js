@@ -1,3 +1,7 @@
+/****************
+* Basic Grammar *
+****************/
+
 // Single line comment
 
 /* Multi
@@ -9,13 +13,15 @@
  * Header *
  *********/
 
-//Semicolons
+/*** Subheader ***/
+
+/*** Semicolons ***/
 var a = 1
 var b = 2 // No semicolon required
 
 var a = 1; var b = 2 // Semicolon required to seperate statements
 
-// Variables
+/*** Declarations ***/
 var uninitialized;
 
 let myVar = 1;

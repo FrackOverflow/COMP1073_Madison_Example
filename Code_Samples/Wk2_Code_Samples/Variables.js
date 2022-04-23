@@ -1,4 +1,8 @@
-// Declaring Primitives
+/************
+* Variables *
+************/
+
+/*** Declaring Primitives ***/
 // Boolean
 var bool = true;
 bool = false;
@@ -28,7 +32,7 @@ var myString = "This is a string";
 myString = myString + " with an extra addition";  // "This is a string with an extra addition"
 
 
-// Dynamic Typing
+/*** Dynamic Typing ***/
 var a = "I'm a string"; // This starts as a string, but a variable's type can be anything
 a = 5;                  // No issue due to dynamic typing
 
@@ -48,6 +52,7 @@ if (1 === 1) {
     console.log(b); // No issue
 }
 
+/*** Hoisting ***/
 //Hoisting Variables
 console.log(c);             // Prints "undefined"
 var c = "blah blah blah";
@@ -66,7 +71,7 @@ var myFloat = parseFloat("1.02345");
 var myString = "" + 134;
 myString = "" + 1.02345;
 
-// Operators
+/*** Operators ***/
 // Arithmetic
 // Addition and Subtraction
 var myNum = 1 + 2;  // 3
@@ -105,8 +110,6 @@ var y = ++x;    // Increment happens BEFORE assignment
 console.log(x); // Prints 3
 console.log(y); // Prints 3
 
-
-
 // Comparison
 var myBool;
 // Less than / Greater than
@@ -137,26 +140,26 @@ myBool = !true;     // false
 myBool = !false;    // true
 myBool = !(1 == 1); // false
 
-// String interpolation
+/*** String interpolation ***/ 
 var myFavoriteNumber = 3;
 var myShoeSize = 10;
 var myName = "Madison";
 var myString = `Hey my name is ${myName}, my shoe size is ${myShoeSize} and my favorite number is ${myFavoriteNumber}`;
 console.log(`The string we built is: ${myString}`); // Prints "The string we built is: Hey my name is Madison, my shoe size is 10 and my favorite number is 3"
 
-// Literals
+/*** Literals ***/ 
 var myVar = 1;              // Integer literal
 myVar = "string literal";
 myVar = true;               // Boolean Literal
 myVar = 15n;                // BigInt literal
 myVar = 1.4;                // Float literal
 
-// Truthy and Falsy
+/*** Truthy and Falsy ***/ 
 var myBool = 0 || -0;   // false
 myBool = null || NaN;   // false
 myBool = 'false' && '0' // true
 
-// String Escaping
+/*** String Escaping ***/
 var myString = "Here is a quote \"Wow\" - Owen Wilson";
 
 var myString = "c:\\home";
