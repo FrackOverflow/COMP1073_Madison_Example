@@ -68,22 +68,22 @@ var last = myArray.pop()
 // myArray is now ["1", "2"], last = "3"
 
 // Shift: removes the first element from an array and returns it
-let myArray = new Array('1', '2', '3')
-let first = myArray.shift()
+var myArray = new Array('1', '2', '3')
+var first = myArray.shift()
 // myArray is now ["2", "3"], first is "1"
 
 // Unshift: adds one or more elements to the front of an array and returns the new length
-let myArray = new Array('1', '2', '3')
+var myArray = new Array('1', '2', '3')
 myArray.unshift('4', '5')
 // myArray becomes ["4", "5", "1", "2", "3"]
 
 // Slice: extracts a section of an array and returns the new array
-let myArray = new Array('a', 'b', 'c', 'd', 'e')
+var myArray = new Array('a', 'b', 'c', 'd', 'e')
 myArray = myArray.slice(1, 4)  // starts at index 1 and extracts all elements
                                // until index 3, returning [ "b", "c", "d"]
 
 // Splice: removes elements from an array and optionally replaces them, returns the removed elements
-let myArray = new Array('1', '2', '3', '4', '5')
+var myArray = new Array('1', '2', '3', '4', '5')
 myArray.splice(1, 3, 'a', 'b', 'c', 'd')
 // myArray is now ["1", "a", "b", "c", "d", "5"]
 // This code started at index one (or where the "2" was),
@@ -91,12 +91,12 @@ myArray.splice(1, 3, 'a', 'b', 'c', 'd')
 // elements in its place.
 
 // Reverse: reverses the order of the array
-let myArray = new Array('1', '2', '3')
+var myArray = new Array('1', '2', '3')
 myArray.reverse()
 // transposes the array so that myArray = ["3", "2", "1"]
 
 // Sort: sorts the array elements in place and returns the result
-let myArray = new Array('Wind', 'Rain', 'Fire')
+var myArray = new Array('Wind', 'Rain', 'Fire')
 myArray.sort()
 // sorts the array so that myArray = ["Fire", "Rain", "Wind"]
 
