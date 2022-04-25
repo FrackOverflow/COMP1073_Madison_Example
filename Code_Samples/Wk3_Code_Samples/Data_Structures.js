@@ -127,7 +127,9 @@ sayings.size; // 0
 let mySet = new Set();
 mySet.add(1);
 mySet.add('some text');
+mySet.add(2.2)
 mySet.add('foo');
+mySet.add(2.2)
 
 mySet.has(1); // true
 mySet.delete('foo');
@@ -136,3 +138,4 @@ mySet.size; // 2
 for (let item of mySet) console.log(item);
 // 1
 // "some text"
+// 2.2
