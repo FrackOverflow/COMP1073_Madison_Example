@@ -139,3 +139,12 @@ for (let item of mySet) console.log(item);
 // 1
 // "some text"
 // 2.2
+
+/*** The Spread Operator ***/
+let setToArray = [...mySet];
+
+console.log(setToArray.toString());
+
+let testString = "Test String";
+let stringToArray = [...testString];
+console.log(stringToArray.toString());
