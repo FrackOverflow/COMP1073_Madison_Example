@@ -78,6 +78,7 @@ var myNum = 1 + 2;  // 3
 myNum = 1 - 2;      // -1
 // Division and Multuiplication
 myNum = 3 / 2;      // 1.5
+myNum = 3 * 2;      // 6
 // Remainder (Modulo)
 myNum = 3 % 2;      // 1
 myNum = 5 % 7;      // 2
