@@ -21,9 +21,9 @@ switch (3.14) {
     case 2.33:
         console.log("case 1");
     case 3.14:
-        console.log("case 2");;
+        console.log("case 2");
     default:
-        console.log("unless you put breaks in, I will always run")
+        console.log("unless you put breaks in, I will always run");
 }
 
 switch (2+2) {
@@ -37,7 +37,7 @@ switch (2+2) {
         console.log("case 3");
         break;
     default:
-        console.log("With these breaks in I won't run unless no case is hit")
+        console.log("With these breaks in I won't run unless no case is hit");
 }
 
 /*** For Loops ***/
