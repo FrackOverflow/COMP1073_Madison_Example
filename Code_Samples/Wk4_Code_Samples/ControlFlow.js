@@ -42,6 +42,14 @@ switch (2+2) {
 
 /*** For Loops ***/
 // For
+for(var i = 0; i < 10; i++) {
+    console.log(i);
+}
+
+var testArr = ["A", "B", "C", "D"];
+for (var i = 0; i < testArr.length; i++) {
+    console.log(testArr[i]);
+}
 
 // For-in
 
